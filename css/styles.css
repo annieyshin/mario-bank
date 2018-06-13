@@ -13,7 +13,7 @@ body {
   background-color: #7CA8E2;
 }
 
-.col-md-6 {
+.col-md-5 {
   background-color: #F0C845;
 }
 
@@ -25,10 +25,10 @@ h3 {
 
 .container {
 margin: 4px;
-width: 100%;
+
 }
 
 
 #BTNaddAccountID {
-  padding: 3px;
+  padding-bottom: 3px;
 }
