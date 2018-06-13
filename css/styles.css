@@ -1,0 +1,34 @@
+.jumbotron {
+  background-color: #C37D2E;
+}
+
+#stompy {
+  height: 130px;
+  float: right;
+  padding-bottom: 12px;
+  margin-right: 13px;
+}
+
+body {
+  background-color: #7CA8E2;
+}
+
+.col-md-6 {
+  background-color: #F0C845;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.container {
+margin: 4px;
+width: 100%;
+}
+
+
+#BTNaddAccountID {
+  padding: 3px;
+}
