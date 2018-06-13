@@ -24,16 +24,18 @@ $(document).ready(function() {
     event.preventDefault();
     var fullNameVAR = $("input#FullyNameID").val();
     var startMoneyVAR = parseInt($("input#MoneyFormID").val());
+    $("endResultDIV").show();
+    var depositMoneyVAR = parseInt($("input#DepositDisplayID").val());
+    var withdrawalMoneyVAR = parseInt($("input#WithdrawalDisplayID").val());
     var newClientVAR = new oneObject(fullNameVAR, startMoneyVAR)
     console.log("beep");
     // $("#wrapperFullyNameID").each(function() {
     newClientVAR.array.push(newClientVAR);
 
       $("ul#LISTnewMoneyID").append("<li><span class='contact'>" + newClientVAR.fullestNamePROTOTYPE() + "</span></li>");
-      console.log(newClientVAR);
       $("ul#LISTnewMoneyID").append("<li>" + newClientVAR.initialBalancePROTOTYPE() + "</li>");
   });
-
+console.log("woof");
 
 
   });
